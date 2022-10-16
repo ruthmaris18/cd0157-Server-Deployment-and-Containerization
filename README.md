@@ -85,4 +85,9 @@ Completing the project involves several steps:
 5. Create a CodePipeline pipeline triggered by GitHub checkins
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
+7.  Create .env_file in the root directory and include the following lines:
+```
+JWT_SECRET='myjwtsecret'
+LOG_LEVEL=DEBUG
+```
 For more detail about each of these steps, see the project lesson.
